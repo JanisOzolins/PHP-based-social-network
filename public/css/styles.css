@@ -1,0 +1,185 @@
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-inverse {
+    border-bottom: solid #9C9C9C 1px;
+}
+
+body {
+    background-color: #222;
+}
+
+.container-fluid.friends-page {
+    padding: 15px 25px;
+}
+
+.col-md-12.profile-box {
+    padding: 10px 15px;
+    background: -webkit-linear-gradient(315deg, rgb(222, 56, 14), rgb(0, 31, 255)) 50% 50% / cover no-repeat fixed rgb(35, 37, 47);
+    color: white;
+    margin: 5px 0px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+}
+
+.nav>li>a {
+    padding: 10px 25px;
+}
+
+img.profile-pic-sidebar {
+    width: 100%;
+    margin:25px 0px;
+}
+
+.col-md-12.profile-box {
+    padding: 10px 15px;
+    background-color: red;
+    margin: 5px 0px;
+}
+
+#left {
+    padding: 15px;
+    background-color: #F0F0F0;
+    border: solid 1px #333333;
+    margin-top: 40px;
+}
+
+form.form.post-message {
+    padding: 15px;
+    background-color: #F0F0F0;
+    border: solid 1px #333333;
+    margin: 15px;
+}
+
+h3.post_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+textarea {
+    width: 100% !important;
+    border: none;
+    padding: 10px;
+}
+
+.friend-container {
+    background-color: #f9f9f9;
+    margin: 0.5%;
+}
+
+p.friend-grid-name {
+    text-align: center;
+    padding: 7px;
+    background-color: #5328A4;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.4px;
+    font-size: 11px;
+}
+
+button.btn.btn-default.btn-post-message {
+    width: 100%;
+    background: -webkit-linear-gradient(315deg, rgb(222, 56, 14), rgb(0, 31, 255)) 50% 50% / cover no-repeat fixed rgb(35, 37, 47);
+    color: white;
+    margin: 5px 0px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    border-radius: 0px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+
+#mainContent {
+    padding: 25px;
+    margin:30px;
+}
+
+
+#right {
+    margin-top: 25px;
+}
+
+.photo {
+    height: auto;
+    width: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.photo-comments {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.post {
+    background-color: #f0f0f0;
+    border: solid #333 1px;
+    padding: 10px 25px;
+    margin: 8px 15px;
+    width: 90%;
+    float: left;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.btn-default {
+    width: 100% !important;
+    margin: 5px 0;
+}
+
+.form-container {
+    background-color: #f0f0f0;
+    border: solid #333 1px;
+    padding: 20px;
+    margin: 8px 15px;
+    width: 90%;
+    float: left;
+}
+
+.friend-container img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+textarea.form-control {
+    width: 100% !important;
+}
+
+.form {
+    padding: 10px;
+    width: 90%;
+}
+
+#textarea {
+    max-width: 100%;
+    width: 100%;
+}
