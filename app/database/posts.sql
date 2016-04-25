@@ -1,4 +1,3 @@
-/* Prime Ministers database in MySQL. */
 drop table if exists posts;
 
 create table posts (
@@ -12,5 +11,10 @@ create table posts (
 
 /* Column names changed to avoid MySQL reserved words. */
 
-insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 99);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
+insert into posts(author, created, title, message, comments) values ('John', '2016-01-01', "My title", "My message", 0);
 

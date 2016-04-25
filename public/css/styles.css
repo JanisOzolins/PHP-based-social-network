@@ -1,185 +1,275 @@
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0;
-    margin-left: 0;
+@media(max-width:767px) {
+	#mainContent
+	{
+		margin: 0
+	}
+	
+	.col-md-12.post-tools>div
+	{
+		padding-bottom: 15px;
+		text-align: center
+	}
+	
+	.media-body
+	{
+		padding: 0 10px 10px
+	}
 }
 
-.navbar-inverse {
-    border-bottom: solid #9C9C9C 1px;
+#left
+{
+	margin-top: 25px
 }
 
-body {
-    background-color: #222;
+#mainContent
+{
+	margin: 30px;
+	padding: 25px
 }
 
-.container-fluid.friends-page {
-    padding: 15px 25px;
+#right
+{
+	margin-top: 25px
 }
 
-.col-md-12.profile-box {
-    padding: 10px 15px;
-    background: -webkit-linear-gradient(315deg, rgb(222, 56, 14), rgb(0, 31, 255)) 50% 50% / cover no-repeat fixed rgb(35, 37, 47);
-    color: white;
-    margin: 5px 0px;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 1.2px;
-    font-size: 13px;
+#textarea
+{
+	max-width: 100%;
+	width: 100%
 }
 
-.nav>li>a {
-    padding: 10px 25px;
+.btn-default
+{
+	margin: 5px 0;
+	width: 100%!important
 }
 
-img.profile-pic-sidebar {
-    width: 100%;
-    margin:25px 0px;
+.col-md-12.post-tools>div
+{
+	text-align: right
 }
 
-.col-md-12.profile-box {
-    padding: 10px 15px;
-    background-color: red;
-    margin: 5px 0px;
+.col-md-12.profile-box
+{
+	background: #337AB7;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	margin: 5px 0;
+	padding: 10px 15px;
+	text-align: center
 }
 
-#left {
-    padding: 15px;
-    background-color: #F0F0F0;
-    border: solid 1px #333333;
-    margin-top: 40px;
+.comment-box
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 3px 0;
+	width: 100%
 }
 
-form.form.post-message {
-    padding: 15px;
-    background-color: #F0F0F0;
-    border: solid 1px #333333;
-    margin: 15px;
+.comment-panel
+{
+	padding: 5px
 }
 
-h3.post_title {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.container-fluid
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0
 }
 
-textarea {
-    width: 100% !important;
-    border: none;
-    padding: 10px;
+.container-fluid.friends-page
+{
+	padding: 15px 25px
 }
 
-.friend-container {
-    background-color: #f9f9f9;
-    margin: 0.5%;
+.form
+{
+	padding: 10px;
+	width: 90%
 }
 
-p.friend-grid-name {
-    text-align: center;
-    padding: 7px;
-    background-color: #5328A4;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 1.4px;
-    font-size: 11px;
+.form-container
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 0 0 15px;
+	padding: 20px;
+	width: 100%
 }
 
-button.btn.btn-default.btn-post-message {
-    width: 100%;
-    background: -webkit-linear-gradient(315deg, rgb(222, 56, 14), rgb(0, 31, 255)) 50% 50% / cover no-repeat fixed rgb(35, 37, 47);
-    color: white;
-    margin: 5px 0px;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 1.2px;
-    font-size: 13px;
-    border-radius: 0px;
+.form-control
+{
+	box-shadow: none!important
 }
 
-.form-control {
-    border-radius: 0px;
+.form-control
+{
+	border-radius: 0
 }
 
-
-.navbar {
-    border-radius: 0px;
+.friend-container
+{
+	background: #f9f9f9;
+	margin: .5%
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 15px;
+.friend-container img.img-responsive
+{
+	height: auto;
+	width: 100%
 }
 
-#mainContent {
-    padding: 25px;
-    margin:30px;
+.media
+{
+	background: #fff;
+	margin-bottom: 5px;
+	padding: 10px
 }
 
-
-#right {
-    margin-top: 25px;
+.media-body
+{
+	text-align: justify
 }
 
-.photo {
-    height: auto;
-    width: 100%;
-    float: left;
-    padding-right: 10px;
+.media-object
+{
+	height: 64px;
+	width: 64px
 }
 
-.photo-comments {
-    height: 100px;
-    width: 100px;
-    float: left;
+.nav>li>a
+{
+	padding: 10px 25px
 }
 
-.post {
-    background-color: #f0f0f0;
-    border: solid #333 1px;
-    padding: 10px 25px;
-    margin: 8px 15px;
-    width: 90%;
-    float: left;
+.navbar
+{
+	border-radius: 0
 }
 
-label {
-    display: block;
+.navbar-inverse
+{
+	border-bottom: solid #9C9C9C 1px
 }
 
-input {
-    width: 100%;
-    border: none;
-    padding: 10px;
+.navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand
+{
+	margin-left: 15px
 }
 
-.btn-default {
-    width: 100% !important;
-    margin: 5px 0;
+.photo
+{
+	float: left;
+	height: auto;
+	padding-right: 10px;
+	width: 100%
 }
 
-.form-container {
-    background-color: #f0f0f0;
-    border: solid #333 1px;
-    padding: 20px;
-    margin: 8px 15px;
-    width: 90%;
-    float: left;
+.photo-comments
+{
+	float: left;
+	height: 100px;
+	width: 100px
 }
 
-.friend-container img.img-responsive {
-    width: 100%;
-    height: auto;
+.photo-comments-small
+{
+	height: 64px;
+	margin: 0 5px 5px 0;
+	width: 64px
 }
 
-textarea.form-control {
-    width: 100% !important;
+.post
+{
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 0 0 15px;
+	width: 100%
 }
 
-.form {
-    padding: 10px;
-    width: 90%;
+.row
+{
+	margin-left: 0;
+	margin-right: 0
 }
 
-#textarea {
-    max-width: 100%;
-    width: 100%;
+body
+{
+	background: #EEE
+}
+
+button.btn.btn-default.btn-post-message
+{
+	background: -webkit-linear-gradient(315deg,#de380e,#001fff) 50% 50% / cover no-repeat fixed #23252f;
+	border-radius: 0;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	letter-spacing: 1.2px;
+	margin: 5px 0;
+	text-transform: uppercase;
+	width: 100%
+}
+
+form.form.post-message
+{
+	background: #fff;
+	border: solid 1px #333;
+	margin: 15px;
+	padding: 15px
+}
+
+h3.post_title
+{
+	margin-bottom: 0;
+	margin-top: 0
+}
+
+img.profile-pic-sidebar
+{
+	margin: 25px 0;
+	width: 100%
+}
+
+input
+{
+	border: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 100%
+}
+
+label
+{
+	display: block
+}
+
+p.friend-grid-name
+{
+	background: #5328A4;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 100;
+	letter-spacing: 1.4px;
+	padding: 7px;
+	text-align: center;
+	text-transform: uppercase
+}
+
+textarea
+{
+	border: none;
+	padding: 10px;
+	width: 100%!important
+}
+
+textarea.form-control
+{
+	width: 100%!important
 }
